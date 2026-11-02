@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "merge-barrel",
+	"version": "${version}",
+	"name": "Merge Barrel",
+	"description": "Merge Barrel is a mod for merging two adjacent vanilla Minecraft barrels, allowing them to be detected by redstone comparators and hoppers as double chests.",
+	"authors": [
+		"xiaoyangyea"
+	],
+	"contact": {
+		"homepage": "https://github.com/xiaoyangyea",
+		"sources": "https://github.com/xiaoyangyea/merge-barrel"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/merge-barrel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.xiaoyangyea.merge_barrel.MergeBarrel"
+		]
+	},
+	"mixins": [
+		"merge-barrel.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
