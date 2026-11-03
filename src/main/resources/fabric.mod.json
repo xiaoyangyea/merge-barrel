@@ -8,8 +8,9 @@
 		"xiaoyangyea"
 	],
 	"contact": {
-		"homepage": "https://github.com/xiaoyangyea",
-		"sources": "https://github.com/xiaoyangyea/merge-barrel"
+		"homepage": "https://github.com/xiaoyangyea/merge-barrel",
+		"sources": "https://github.com/xiaoyangyea/merge-barrel",
+		"issues": "https://github.com/xiaoyangyea/merge-barrel/issues"
 	},
 	"license": "LGPL-3.0-or-later",
 	"icon": "assets/merge-barrel/icon.png",
